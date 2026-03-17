@@ -1,82 +1,82 @@
 body{
-  font-family:Calibri;
+  font-family: Calibri;
 }
 header{
-  display:flex;
-  flex-direction:column;
+  display: flex;
+  flex-direction: column;
 }
 .wrapper{
-  min-height:100vh;
-  display:flex;
-  flex-direction:column;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 main{
   flex:1;
 }
 .logo-store-container{
-  display:flex;
-  align-items:center;
+  display: flex;
+  align-items: center;
 }
 .logo-store-container img{
-  width:40px;
-  height:40px;
-  margin-right:1rem;
+  width: 40px;
+  height: 40px;
+  margin-right: 1rem;
 }
 nav ul{
-  display:flex;
-  justify-content:flex-start;
-  flex-direction:column;
-  width:120px;
-  list-style:none;
-  border:1px solid lightgray;
-  border-radius:5px;
-  padding:0;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 120px;
+  list-style: none;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 0;
 }
 .home,.contact{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  border-bottom:1px solid lightgray;
-  text-decoration:none;
-  padding:0.2rem;
-  color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  text-decoration: none;
+  padding: 0.2rem;
+  color: black;
 }
 .home-page .home{
-  background-color:rgb(86, 81, 232);
+  background-color: rgb(86, 81, 232);
 }
 .contact-page .contact{
-  border-bottom:none;
-  background-color:rgb(46, 112, 134); 
-  color:white;
+  border-bottom: none;
+  background-color: rgb(46, 112, 134); 
+  color: white;
 }
 main form{
-  display:flex;
-  flex-direction:column;
-  align-items:center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 form div{
-  display:flex;
-  justify-content:space-around;
-  margin-bottom:1rem;
-  width:250px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+  width: 250px;
 }
 form label{
-  width:80px;
+  width: 80px;
 }
 form input,form textarea{
-  width:200px;
+  width: 200px;
 }
 form textarea{
-  height:100px;
+  height: 100px;
 }
 form .submit{
-  width:100px;
+  width: 100px;
 }
 footer{
-  display:flex;
-  flex-direction:column;
-  align-items:center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 footer p{
-  margin:0.2rem;
+  margin: 0.2rem;
 }
